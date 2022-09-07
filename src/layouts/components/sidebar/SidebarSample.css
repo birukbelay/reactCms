@@ -1,0 +1,75 @@
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 400ms;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transition: opacity 400ms;
+}
+
+
+.sidebar__button {
+  background: transparent;
+  padding: 10px;
+  border: none;
+  color: white;
+  transition: 0.3s linear;
+  background-color: var(--indigo-900);
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.sidebar {
+    width: 5%;
+    min-width: 250px;
+    height: 100vh;
+    background: var(--indigo-900);
+    padding: 20px;
+    color: white;
+    transition: 0.4s ease-in;
+}
+
+.side-bar-container{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    margin: auto;
+}
+.first-container-side-bar{
+    display: flex;
+}
+.sidebar-closed {
+  min-width: 40px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar__listItem {
+  margin: 30px 10px;
+  display: flex;
+  height: 20px;
+}
+
+.sidebar__listItem span, a {
+  white-space: nowrap;
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar__icon {
+  margin: 0 15px 0 0;
+  color: white;
+}
+

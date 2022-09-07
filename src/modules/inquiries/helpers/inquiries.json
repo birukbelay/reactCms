@@ -1,0 +1,12 @@
+
+{
+    "data": [
+        {"inquirynumber": "0001","description":"inquiry1", "inquirydate": "2022/01/06"},
+        {"inquirynumber": "0002","description":"inquiry1", "inquirydate": "2022/01/06"},
+        {"inquirynumber": "0003","description":"inquiry1", "inquirydate": "2022/01/06"},
+        {"inquirynumber": "0004","description":"inquiry1", "inquirydate": "2022/01/06"},
+        {"inquirynumber": "0005","description":"inquiry1", "inquirydate": "2022/01/06"}
+        
+           ]
+}
+     

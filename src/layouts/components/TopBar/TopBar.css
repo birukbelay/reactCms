@@ -1,0 +1,50 @@
+
+.main{
+    background-color: var(--indigo-900) ;
+    height: 100%;
+    color: white;
+    width: 100rem;
+}
+.header{
+    display: flex;
+    margin-left: 3rem;
+}
+.title{
+    margin-left: 2rem;
+    font-size: large;
+    margin-top: 1rem;
+    font-weight: 700;
+}
+.dashboard-dropdown{
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 1rem;
+    margin-top: 0.25rem;
+    margin-left: 2rem;
+    margin-bottom: 0.5rem;
+    background-color: var(--indigo-900);
+    border: none;
+}
+.dashboard-dropdown ::placeholder{
+    color: white;
+}
+.dashboard-container{
+    width: 100%;
+}
+.dashboard-container h4{
+    margin-top: -3px;
+}
+.jobs-main-container{
+    background-color: rgb(217, 214, 214);
+    padding-top: 6px;
+    margin-top: -15px;
+    padding-bottom: 10px;
+}
+.jobs-container{
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
